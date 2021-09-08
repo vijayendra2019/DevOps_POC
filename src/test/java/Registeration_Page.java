@@ -41,6 +41,7 @@ public class Registeration_Page {
 		}		
 	}
 	
+	
 	public String getDriverPath(){
 		String driverPath = properties.getProperty("driverPath");
 		if(driverPath!= null) return driverPath;
@@ -59,7 +60,7 @@ public class Registeration_Page {
 		Registeration_Page Registeration_Page =new Registeration_Page();
 		String URL=  Registeration_Page.getApplicationUrl();
 		
-		System.setProperty("webdriver.gecko.driver",  Registeration_Page.getDriverPath());
+		System.setProperty("webdriver.gecko.driver", "Config//geckodriver.exe");
 		WebDriver driver  = new FirefoxDriver();
 		
 		System.out.println(URL);
@@ -81,9 +82,6 @@ public class Registeration_Page {
 		
 		driver.findElement(By.xpath("//*[@id='Skills']/option[3]")).click();
 		driver.findElement(By.xpath("//*[@id='countries']/option[10]")).click();
-		
-		
-		
 			
 		
 		driver.findElement(By.xpath("//*[@id=\'yearbox\']/option[40]")).click();
