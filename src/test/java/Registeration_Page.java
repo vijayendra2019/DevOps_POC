@@ -66,7 +66,8 @@ public class Registeration_Page {
 		System.out.println(URL);
 		//driver.navigate().to("https://demoqa.com/automation-practice-form");
 		
-		driver.navigate().to("http://demo.automationtesting.in/Register.html");
+		driver.navigate().to(URL);
+		
 		driver.findElement(By.xpath("//*[@id='basicBootstrapForm']/div[1]/div[1]/input")).sendKeys("James");
 		driver.findElement(By.xpath("//*[@id='basicBootstrapForm']/div[1]/div[2]/input")).sendKeys("Anderson");
 		driver.findElement(By.xpath("/html/body/section/div/div/div[2]/form/div[2]/div/textarea")).sendKeys("Plot no 122");
