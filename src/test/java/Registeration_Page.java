@@ -84,10 +84,7 @@ public class Registeration_Page {
 		
 		
 		
-		/*driver.findElement(By.id("/html/body/section/div/div/div[2]/form/div[10]/div/span/span[1]/span")).click();
-		Thread.sleep(5);
-		driver.findElement(By.className("/html/body/span/span/span[1]/input")).sendKeys("India");*/
-		
+			
 		
 		driver.findElement(By.xpath("//*[@id=\'yearbox\']/option[40]")).click();
 		
