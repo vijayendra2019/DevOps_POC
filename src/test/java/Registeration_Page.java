@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 public class Registeration_Page {
 	
 	//welcome to java
-	//hello world
+	//hello world welcome
 	public Properties properties;
 	public final String propertyFilePath= "config//applications.properties";
 	
