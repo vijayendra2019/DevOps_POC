@@ -8,6 +8,11 @@
           <include name="getURL"/>
         </methods>
       </class> <!-- Registeration_Page -->
+      <class name="Reset_Page">
+        <methods>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- Reset_Page -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
