@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34625" started-at="2021-09-09T19:54:39 IST" finished-at="2021-09-09T19:55:14 IST">
+  <suite name="Suite" duration-ms="27461" started-at="2021-09-12T20:36:10 IST" finished-at="2021-09-12T20:36:37 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="34625" started-at="2021-09-09T19:54:39 IST" finished-at="2021-09-09T19:55:14 IST">
+    <test name="Test" duration-ms="27461" started-at="2021-09-12T20:36:10 IST" finished-at="2021-09-12T20:36:37 IST">
       <class name="Reset_Page">
-        <test-method status="PASS" signature="getURL()[pri:0, instance:Reset_Page@4973813a]" name="getURL" duration-ms="18243" started-at="2021-09-09T19:54:55 IST" finished-at="2021-09-09T19:55:14 IST">
+        <test-method status="PASS" signature="getURL()[pri:0, instance:Reset_Page@4973813a]" name="getURL" duration-ms="13809" started-at="2021-09-12T20:36:24 IST" finished-at="2021-09-12T20:36:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getURL -->
       </class> <!-- Reset_Page -->
       <class name="Registeration_Page">
-        <test-method status="PASS" signature="getURL()[pri:0, instance:Registeration_Page@3a883ce7]" name="getURL" duration-ms="16348" started-at="2021-09-09T19:54:39 IST" finished-at="2021-09-09T19:54:55 IST">
+        <test-method status="PASS" signature="getURL()[pri:0, instance:Registeration_Page@3a883ce7]" name="getURL" duration-ms="13624" started-at="2021-09-12T20:36:10 IST" finished-at="2021-09-12T20:36:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getURL -->
