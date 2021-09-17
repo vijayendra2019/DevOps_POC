@@ -77,8 +77,8 @@ public class Registeration_Page {
 		
 		driver.findElement(By.xpath("//*[@id=\"msdd\"]")).click();
 		Thread.sleep(5);
-		driver.findElement(By.xpath("/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[3]/a")).click();
-		driver.findElement(By.xpath("/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[4]/a")).click();
+		//driver.findElement(By.xpath("/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[3]/a")).click();
+		//driver.findElement(By.xpath("/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[4]/a")).click();
 		driver.findElement(By.xpath("//*[@id='checkbox1']")).click();
 		
 		driver.findElement(By.xpath("//*[@id='Skills']/option[3]")).click();
